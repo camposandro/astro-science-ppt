@@ -1,0 +1,17 @@
+[project]
+name = "astro-science"
+readme = "README.md"
+authors = [
+    { name = "Sandro Campos", email = "scampos@andrew.cmu.edu" }
+]
+dependencies = [
+    "pandas",
+    "pytest", # Support for unit tests
+    "ipykernel", # Support for Jupyter notebooks
+]
+version = "0.0.1"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
