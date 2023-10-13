@@ -15,6 +15,7 @@ classifiers = [
 ]
 dynamic = ["version"]
 dependencies = [
+    "pandas",
     "ipykernel", # Support for Jupyter notebooks
 ]
 

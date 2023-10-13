@@ -5,7 +5,7 @@
     // The name of the project being benchmarked.
     "project": "astro-science-ppt",
     // The project's homepage.
-    "project_url": "https://github.com/camposandro/astro-science-ppt/",
+    "project_url": "https://github.com/camposandro/astro-science-ppt",
     // The URL or local path of the source code repository for the
     // project being benchmarked.
     "repo": "..",
