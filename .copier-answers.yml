@@ -1,0 +1,17 @@
+# Changes here will be overwritten by Copier
+_commit: v1.4.3
+_src_path: gh:lincc-frameworks/python-project-template
+author_email: scampos@andrew.cmu.edu
+author_name: Sandro Campos
+create_example_module: false
+custom_install: true
+include_benchmarks: true
+include_docs: true
+include_notebooks: true
+mypy_type_checking: none
+package_name: astro_science
+preferred_linter: pylint
+project_license: MIT
+project_name: astro-science-ppt
+use_gitlfs: none
+use_isort: true
