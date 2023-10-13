@@ -1,0 +1,29 @@
+{
+    "benchmarks.peakmem_computation": {
+        "code": "def peakmem_computation():\n    \"\"\"Memory computations are prefixed with 'mem' or 'peakmem'.\"\"\"\n    test_df = load_test_df()\n    return apply_transformation(\n        test_df,\n        col_1=\"phi1\",\n        col_2=\"phi2\",\n        result_column=\"result\",\n        operation=sum,\n    )",
+        "name": "benchmarks.peakmem_computation",
+        "param_names": [],
+        "params": [],
+        "timeout": 60.0,
+        "type": "peakmemory",
+        "unit": "bytes",
+        "version": "500f2d5998db702708eb505ca6b0f934666ca0c7202d21dbed73467cedd0554c"
+    },
+    "benchmarks.time_computation": {
+        "code": "def time_computation():\n    \"\"\"Time computations are prefixed with 'time'.\"\"\"\n    test_df = load_test_df()\n    apply_transformation(\n        test_df,\n        col_1=\"phi1\",\n        col_2=\"phi2\",\n        result_column=\"result\",\n        operation=sum,\n    )",
+        "min_run_count": 2,
+        "name": "benchmarks.time_computation",
+        "number": 0,
+        "param_names": [],
+        "params": [],
+        "repeat": 0,
+        "rounds": 2,
+        "sample_time": 0.01,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds",
+        "version": "bc1526299faf262322b9071119d16c8ad1f778a0696f066c6e1212c8b161a526",
+        "warmup_time": -1
+    },
+    "version": 2
+}
