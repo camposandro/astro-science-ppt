@@ -22,7 +22,7 @@ def load_test_df():
 def time_computation():
     """Time computations are prefixed with 'time'."""
     test_df = load_test_df()
-    return apply_transformation(
+    apply_transformation(
         test_df,
         col_1="phi1",
         col_2="phi2",
@@ -31,7 +31,7 @@ def time_computation():
     )
 
 
-def mem_list():
+def peakmem_computation():
     """Memory computations are prefixed with 'mem' or 'peakmem'."""
     test_df = load_test_df()
     return apply_transformation(
