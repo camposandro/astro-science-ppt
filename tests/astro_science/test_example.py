@@ -1,17 +1,8 @@
 """Tests the example module"""
-import os
-
 import pandas as pd
 import pytest
 
-from example import Query, apply_transformation, query_by_column
-
-
-@pytest.fixture
-def test_df():
-    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    path = os.path.join(root_dir, "data", "gd1_data.csv")
-    return pd.read_csv(path)
+from astro_science.example import Query, apply_transformation, query_by_column
 
 
 def test_create_query():
